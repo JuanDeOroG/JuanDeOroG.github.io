@@ -1,0 +1,277 @@
+.flecha-extremos {
+
+
+    width: 6%;
+    height: 10%;
+    z-index: 4;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.26);
+    animation: flechas 5s linear infinite;
+    animation-direction: alternate;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+.flecha-extremos:hover{
+    background-color: white;
+    cursor: pointer;
+    
+}
+
+.flecha-extremos:nth-child(4) {
+    animation-duration: 3s;
+    
+    width: 6%;
+    height: 12%;
+    left: 18%;
+    
+}
+
+.flecha-extremos:nth-child(3) {
+    animation-duration: 4s;
+    width: 6%;
+    height: 12%;
+    left: 36%;
+}
+.flecha-extremos:nth-child(6) {
+    animation-duration: 5s;
+    width: 6%;
+        height: 12%;
+        left: 54%;
+}
+.flecha-extremos:nth-child(7) {
+    animation-duration: 6s;
+    width: 6%;
+    height: 12%;
+    left: 72%;
+}
+.flecha-extremos:nth-child(8) {
+    animation-duration: 7s;
+    width: 6%;
+    height: 12%;
+    left: 90%;
+}
+
+ /* FILA 2 */
+
+.flecha-extremos:nth-child(9) {
+    animation-duration: 3s;
+
+    width: 6%;
+    height: 12%;
+    left: 18%;
+    top: 20vh;
+
+}
+
+.flecha-extremos:nth-child(10) {
+    animation-duration: 4s;
+    width: 6%;
+    height: 12%;
+    left: 36%;
+    top: 20vh;
+}
+
+.flecha-extremos:nth-child(11) {
+    animation-duration: 5s;
+    width: 6%;
+    height: 12%;
+    left: 54%;
+    top: 20vh;
+}
+
+.flecha-extremos:nth-child(12) {
+    animation-duration: 6s;
+    width: 6%;
+    height: 12%;
+    left: 72%;
+    top: 20vh;
+}
+
+.flecha-extremos:nth-child(13) {
+    animation-duration: 7s;
+    width: 6%;
+    height: 12%;
+    left: 90%;
+    top: 20vh;
+}
+.flecha-extremos:nth-child(14) {
+    animation-duration: 7s;
+    width: 6%;
+    height: 12%;
+    left: 0%;
+    top: 20vh;
+}
+/* Fila 3 -------------------------*/
+.flecha-extremos:nth-child(15) {
+    animation-duration: 3s;
+
+    width: 6%;
+    height: 12%;
+    left: 18%;
+    top: 40vh;
+
+}
+
+.flecha-extremos:nth-child(16) {
+    animation-duration: 4s;
+    width: 6%;
+    height: 12%;
+    left: 36%;
+    top: 40vh;
+}
+
+.flecha-extremos:nth-child(17) {
+    animation-duration: 5s;
+    width: 6%;
+    height: 12%;
+    left: 54%;
+    top: 40vh;
+}
+
+.flecha-extremos:nth-child(18) {
+    animation-duration: 6s;
+    width: 6%;
+    height: 12%;
+    left: 72%;
+    top: 40vh;
+}
+
+.flecha-extremos:nth-child(19) {
+    animation-duration: 7s;
+    width: 6%;
+    height: 12%;
+    left: 90%;
+    top: 40vh;
+}
+
+.flecha-extremos:nth-child(20) {
+    animation-duration: 7s;
+    width: 6%;
+    height: 12%;
+    left: 0%;
+    top: 40vh;
+}
+
+ /* FILA 4 */
+
+.flecha-extremos:nth-child(21) {
+    animation-duration: 3s;
+
+    width: 6%;
+    height: 12%;
+    left: 18%;
+    top: 60vh;
+
+}
+
+.flecha-extremos:nth-child(22) {
+    animation-duration: 4s;
+    width: 6%;
+    height: 12%;
+    left: 36%;
+    top: 60vh;
+}
+
+.flecha-extremos:nth-child(23) {
+    animation-duration: 5s;
+    width: 6%;
+    height: 12%;
+    left: 54%;
+    top: 60vh;
+}
+
+.flecha-extremos:nth-child(24) {
+    animation-duration: 6s;
+    width: 6%;
+    height: 12%;
+    left: 72%;
+    top: 60vh;
+}
+
+.flecha-extremos:nth-child(25) {
+    animation-duration: 7s;
+    width: 6%;
+    height: 12%;
+    left: 90%;
+    top: 60vh;
+}
+.flecha-extremos:nth-child(26) {
+    animation-duration: 7s;
+    width: 6%;
+    height: 12%;
+    left: 0%;
+    top: 60vh;
+}
+/* Fila 5 -------------------------*/
+.flecha-extremos:nth-child(27) {
+    animation-duration: 3s;
+
+    width: 6%;
+    height: 12%;
+    left: 18%;
+    top: 80vh;
+
+}
+
+.flecha-extremos:nth-child(28) {
+    animation-duration: 4s;
+    width: 6%;
+    height: 12%;
+    left: 36%;
+    top: 80vh;
+}
+
+.flecha-extremos:nth-child(29) {
+    animation-duration: 5s;
+    width: 6%;
+    height: 12%;
+    left: 54%;
+    top: 80vh;
+}
+
+.flecha-extremos:nth-child(30) {
+    animation-duration: 6s;
+    width: 6%;
+    height: 12%;
+    left: 72%;
+    top: 80vh;
+}
+
+.flecha-extremos:nth-child(31) {
+    animation-duration: 7s;
+    width: 6%;
+    height: 12%;
+    left: 90%;
+    top: 80vh;
+}
+
+.flecha-extremos:nth-child(32) {
+    animation-duration: 7s;
+    width: 6%;
+    height: 12%;
+    left: 0%;
+    top: 80vh;
+}
+
+@keyframes flechas {
+    0% {
+        opacity: .8;
+        transform: rotate(0deg);
+    }
+        25% {
+            
+        }
+    
+    50% {
+        opacity: .2;
+        
+    }
+
+        75% {
+            opacity: .8;
+            
+        }
+    100% {
+        opacity: .1;
+    transform: rotate(180deg);
+    }
+}
