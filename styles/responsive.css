@@ -1,0 +1,19 @@
+@media only screen and (max-width: 991px) {
+
+    #findme{
+        width: 713px;
+        margin-bottom: 200px;
+        
+    }
+
+    #findme div img, #frontend div img{
+        margin: auto;
+
+    }
+
+    #findme div p,#frontend div img{
+        margin-bottom: 50px;
+        font-size: 27px;
+    }
+
+}
