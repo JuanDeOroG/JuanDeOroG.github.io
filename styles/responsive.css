@@ -1,12 +1,12 @@
 @media only screen and (max-width: 991px) {
 
-    #findme{
+    #findme, #others{
         width: 713px;
         margin-bottom: 200px;
         
     }
 
-    #findme div img, #frontend div img{
+    #findme div img, #frontend div img, #others div img,#others div h4 {
         margin: auto;
 
     }
@@ -17,3 +17,36 @@
     }
 
 }
+
+@media only screen and (max-width: 767px) {
+
+ #findme,#others{
+
+    width: 534px;
+ }
+
+
+
+
+}
+
+@media only screen and (max-width: 767px) {
+
+
+#findme,
+    #others {
+
+        width: 334px;
+    }
+
+}
+
+@media only screen and (max-width: 493px) {
+
+    #btnproject{
+background: url(/img/projects/Espenses\ manager.PNG); width: 300px; height: 200px}
+
+
+
+}
+
