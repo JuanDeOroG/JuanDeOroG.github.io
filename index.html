@@ -130,13 +130,13 @@
                             class="u-container-layout u-similar-container u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-container-layout-6">
 
                             <h4 class="u-custom-font u-font-ubuntu u-text u-text-default u-text-6">Find me:</h4> <br>
-                            <img class="icons" src="/img/github.svg" alt="">
+                            <img id="github" class="icons" src="/img/github.svg" >
 
                             <p>Github: JuanDeOroG</p>
-                            <img class="icons" src="/img/insta.svg" alt="">
+                            <img  class="icons" id="insta" src="/img/insta.svg" >
 
                             <p>Instagram: juan_de_oro03</p>
-                            <img class="icons" src="/img/gmail.svg" alt="">
+                            <img  class="icons"  id="gmail" src="/img/gmail.svg">
 
                             <p>Gmail: juandeoro4@gmail.com</p>
                         </div>
@@ -432,5 +432,13 @@
     document.getElementById("knowledge").addEventListener("click", function () { knowledgetarget.scrollIntoView({ behavior: "smooth", }) })
     document.getElementById("projects").addEventListener("click", function () { projectstarget.scrollIntoView({ behavior: "smooth", }) })
     document.getElementById("initial-btn").addEventListener("click", function () {abouttarget.scrollIntoView({behavior:"smooth",})})
+
+
+    // Click href my accounts
+
+    github.addEventListener("click", function () { window.open("https://github.com/JuanDeOroG", "_blank") });
+        insta.addEventListener("click", function () {
+                window.open("https://www.instagram.com/juan_de_oro03/", "_blank")});
+         
 
 </script>

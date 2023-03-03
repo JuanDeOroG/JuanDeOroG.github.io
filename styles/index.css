@@ -90,5 +90,7 @@ body{
 }
 
 
+#github,#insta,#gmail, div div img{
+    cursor: pointer;
 
-
+}
