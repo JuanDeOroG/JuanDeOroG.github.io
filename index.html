@@ -30,7 +30,7 @@
 
         <h3 class="initial-title">Hello, this is <span class="myname">Juan De Oro</span><br>And i 'm a back-end
             developer</h3>
-        <button class="initial-btn">Check me</button>
+        <button id="initial-btn" class="initial-btn">Check me</button>
 
 
         <div class="flecha-extremos"> </div>
@@ -431,5 +431,6 @@
     document.getElementById("skills").addEventListener("click", function () { skillstarget.scrollIntoView({ behavior: "smooth", }) })
     document.getElementById("knowledge").addEventListener("click", function () { knowledgetarget.scrollIntoView({ behavior: "smooth", }) })
     document.getElementById("projects").addEventListener("click", function () { projectstarget.scrollIntoView({ behavior: "smooth", }) })
+    document.getElementById("initial-btn").addEventListener("click", function () {abouttarget.scrollIntoView({behavior:"smooth",})})
 
 </script>

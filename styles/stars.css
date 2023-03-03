@@ -252,6 +252,12 @@
     top: 80vh;
 }
 
+@media only screen and (max-width:752px) {
+    .flecha-extremos{
+        z-index: -10;
+    }
+}
+
 @keyframes flechas {
     0% {
         opacity: .8;
