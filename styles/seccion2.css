@@ -244,6 +244,8 @@
 }
 
 #btnproject{
+  cursor: pointer;
   background: url(/img/projects/Espenses\ manager.PNG);
    width: 400px; height: 250px;
 }
+
